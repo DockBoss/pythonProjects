@@ -1,17 +1,27 @@
-# madLib generator using a dictionary
+# madLib generator using a dictionary              emtn = emotion   actn = action
 import sys
 
-Word_dict = {
-    'noun'  :
-    'vng'   :
-    'adj'   : 
-    'emtn'  : 
-    'actn'  :
-    'friend': 
-}
 
 
+class MadLibs :
 
+    def __init__(self, title , madLibs):
+        
+        self.title = title
+        self.madLibs = madLib
+
+    def play(): 
+        adj    = input("Write an adjective: ")
+        noun   = input("Write a noun: ")
+        vng    = input("Name an ing verb: ")
+        emtn   = input("name an emotion: ")
+        actn   = input("name an action: ")
+        friend = input("name an friend: ")
+
+        print(MadLibs.title)
+
+        for words in MadLibs.madLibs:
+            print(words)
 
 
 madLib = (
@@ -21,5 +31,7 @@ madLib = (
     "told me that "+ friend +" gave me the "+ noun +"."
 )
 
-print(madLib)
+m1 = MadLibs("Thanks Giving Giggle", madLib)
+
+m1.play()
 
