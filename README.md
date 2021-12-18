@@ -1,2 +1,2 @@
 # pythonProjects
-Learning python with different projects and people
+Learning python with different projects.
